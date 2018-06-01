@@ -1,0 +1,19 @@
+README for lab5
+
+1.  How to comepile for lab5 ?
+    Ans: 
+          use command "make" under linux os
+    note: be sure that 3 file are in the same content. They are myHugeInt.cpp , HugeInt.cpp and HugeInt.h
+
+2.  What's HugeInt about ?
+    Ans: 
+            for a normal case operator '+'  for integer is only allow for integer under 8 bytes (i.e 32 bit but including postive and 
+            negatice intger ) Hence only approximately 16bits are qualified.  the 'Huge intger '  which is over 16bits is available for these code.
+    note:   only '+' '-' '=' is taken into account for the source code.
+
+3.  what's constraint for the eneter information ?
+    Ans:    (1)  user can only enter a postive integer. for negative operator please use '-' operator
+                ex: 123456789 + (-987654321) is not valid but 123456789 - 987654321 is available.
+            (2) only operator '+' '-' is qualified,not including '* 'and '/'.
+            
+ 
